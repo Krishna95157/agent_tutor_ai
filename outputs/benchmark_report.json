@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "question": "What is overfitting?",
+    "domain": "Machine Learning",
+    "latency_total": 27.13,
+    "timings": {
+      "planner": 4.38,
+      "explainer": 10.32,
+      "developer": 0.0,
+      "critic": 12.43
+    },
+    "scores": {
+      "keyword_score": 75,
+      "keyword_hits": "3/4",
+      "structure_score": 100,
+      "code_expectation_met": true,
+      "error_free": true,
+      "composite": 88
+    },
+    "agents_run": [
+      "planner",
+      "explainer",
+      "developer (skipped)",
+      "critic"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Explain gradient descent with a simple Python example.",
+    "domain": "Machine Learning",
+    "latency_total": 55.1,
+    "timings": {
+      "planner": 4.72,
+      "explainer": 16.99,
+      "developer": 10.32,
+      "critic": 23.08
+    },
+    "scores": {
+      "keyword_score": 100,
+      "keyword_hits": "4/4",
+      "structure_score": 100,
+      "code_expectation_met": true,
+      "error_free": true,
+      "composite": 100
+    },
+    "agents_run": [
+      "planner",
+      "explainer",
+      "developer",
+      "critic"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What is the difference between machine learning and deep learning?",
+    "domain": "AI / ML",
+    "latency_total": 27.72,
+    "timings": {
+      "planner": 5.18,
+      "explainer": 9.4,
+      "developer": 0.0,
+      "critic": 13.14
+    },
+    "scores": {
+      "keyword_score": 100,
+      "keyword_hits": "4/4",
+      "structure_score": 100,
+      "code_expectation_met": true,
+      "error_free": true,
+      "composite": 100
+    },
+    "agents_run": [
+      "planner",
+      "explainer",
+      "developer (skipped)",
+      "critic"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Explain the attention mechanism in transformers.",
+    "domain": "Deep Learning",
+    "latency_total": 32.05,
+    "timings": {
+      "planner": 5.77,
+      "explainer": 10.3,
+      "developer": 0.0,
+      "critic": 15.97
+    },
+    "scores": {
+      "keyword_score": 100,
+      "keyword_hits": "5/5",
+      "structure_score": 100,
+      "code_expectation_met": true,
+      "error_free": true,
+      "composite": 100
+    },
+    "agents_run": [
+      "planner",
+      "explainer",
+      "developer (skipped)",
+      "critic"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is k-means clustering? Show a Python example.",
+    "domain": "Data Mining",
+    "latency_total": 56.78,
+    "timings": {
+      "planner": 5.71,
+      "explainer": 16.3,
+      "developer": 8.23,
+      "critic": 26.55
+    },
+    "scores": {
+      "keyword_score": 100,
+      "keyword_hits": "4/4",
+      "structure_score": 100,
+      "code_expectation_met": true,
+      "error_free": true,
+      "composite": 100
+    },
+    "agents_run": [
+      "planner",
+      "explainer",
+      "developer",
+      "critic"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What is the capital of France?",
+    "domain": "OFF-TOPIC (should be rejected)",
+    "latency_total": 0.0,
+    "timings": {
+      "router": 0.0
+    },
+    "scores": {
+      "keyword_score": 67,
+      "keyword_hits": "2/3",
+      "structure_score": 40,
+      "code_expectation_met": true,
+      "error_free": true,
+      "composite": 60
+    },
+    "agents_run": [
+      "router (blocked)"
+    ]
+  }
+]
