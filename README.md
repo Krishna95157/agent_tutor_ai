@@ -285,3 +285,9 @@ MAX_TOKENS = {
     "critic":   400,
 }
 ```
+
+---
+
+## Contributors
+
+- **Vamsi Krishna** ([@Krishna95157](https://github.com/Krishna95157)) — Project author
